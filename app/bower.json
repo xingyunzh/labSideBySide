@@ -1,0 +1,21 @@
+{
+  "name": "app",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "William Yu <william.yu@xingyunzh.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/xingyunzh/labSideBySide",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}

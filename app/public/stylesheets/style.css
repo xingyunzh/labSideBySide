@@ -1,0 +1,31 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1 {
+  text-align: center;
+}
+
+.candidate {
+  height:350px;
+  text-align: center;
+  width: 250px;
+}
+
+.candidate img {
+  height:300px;
+}
+
+.result-card {
+    height:300px;
+    text-align: center;
+    width:220px;
+}
+.result-card img {
+    height:250px;
+}

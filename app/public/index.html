@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LabSideBySide</title>
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+<h1>Side By Side</h1>
+<div class="container">
+    <div id="idBattle">
+        <div class="row">
+            <div class="col-md-6">
+                <a onclick="handleClick('a')">
+                    <div class="thumbnail center-block candidate">
+                        <img id="image1" src="" alt="pic1">
+                        <br>
+                        <p id="label1">图1</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6">
+                <a onclick="handleClick('b')">
+                    <div class="thumbnail center-block candidate">
+                        <img id="image2" src="" alt="pic1">
+                        <br>
+                        <p id="label2">图2</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="idReport" class="center-block">
+        <div id="idResults">
+
+        </div>
+
+        <div class="row">
+            <div class="pull-right">
+                <input type="email" placeholder="Your email"> <button class="btn btn-primary" onclick="submit()">提交结果</button>
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
+
+<script src="javascripts/remoteImages.js"></script>
+<script src="javascripts/main.js"></script>
+</body>
+</html>
