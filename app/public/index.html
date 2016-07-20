@@ -32,15 +32,25 @@
                 </a>
             </div>
         </div>
+        <div id="idBattleGapDiv"></div>
+        <div class="row">
+            <div class="pull-left">
+                <input type="email" id="idViewInput" placeholder="Input the email to view">
+                <button class="btn btn-default" onclick="viewResult()">查看结果</button>
+            </div>
+        </div>
     </div>
+
     <div id="idReport" class="center-block">
         <div id="idResults">
 
         </div>
-
         <div class="row">
+            <button class="btn btn-default" onclick="restart()">重新开始</button>
+        </div>
+        <div class="row" id="idSubmitPanel">
             <div class="pull-right">
-                <input type="email" placeholder="Your email"> <button class="btn btn-primary" onclick="submit()">提交结果</button>
+                <input type="email" id="idEmailInput" placeholder="Your email"> <button id="idSubmit" class="btn btn-primary" onclick="submit()">提交结果</button>
             </div>
         </div>
 
